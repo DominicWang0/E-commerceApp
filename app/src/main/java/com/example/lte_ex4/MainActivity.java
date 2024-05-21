@@ -21,9 +21,10 @@ MainActivity extends AppCompatActivity{
         tabBar = findViewById(R.id.tabBar);
 
 
-        tabBar.addTab(tabBar.newTab().setText("Home Page").setIcon(R.drawable.ic_house));
-        tabBar.addTab(tabBar.newTab().setText("Classification").setIcon(R.drawable.ic_launcher_background));
-        tabBar.addTab(tabBar.newTab().setText("Shopping Cart").setIcon(R.drawable.ic_launcher_background));
+        tabBar.addTab(tabBar.newTab().setText("Home").setIcon(R.drawable.house_circle));
+        tabBar.addTab(tabBar.newTab().setText("List").setIcon(R.drawable.list_bullet_circle));
+        tabBar.addTab(tabBar.newTab().setText("Cart").setIcon(R.drawable.cart_circle));
+        tabBar.addTab(tabBar.newTab().setText("Me").setIcon(R.drawable.person_circle));
 
         // 启动显示AppleFragment
         FragmentManager manager = getSupportFragmentManager();

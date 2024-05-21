@@ -16,7 +16,7 @@ public class ClassificationFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_orange, container, false);
+        View view = inflater.inflate(R.layout.fragment_classification, container, false);
         TextView tv_01 = view.findViewById(R.id.tv_01);
         Log.i("mytag",tv_01.getText().toString());
         return view;

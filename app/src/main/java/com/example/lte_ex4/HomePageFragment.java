@@ -68,7 +68,7 @@ public class HomePageFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_apple, container, false);
+        View view = inflater.inflate(R.layout.fragment_home_page, container, false);
 
         btn_login = view.findViewById(R.id.btn_login);
         et_name = view.findViewById(R.id.et_name);
